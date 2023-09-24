@@ -7,7 +7,7 @@ using namespace std;
 #include <iomanip> 
 int main()
 {
-    //¶ÁÈ¡ÊäÈëÃ»ÓĞĞĞºÅºÍÁĞºÅµÄ¾ØÕó1 2 3 
+    //è¯»å–è¾“å…¥æ²¡æœ‰è¡Œå·å’Œåˆ—å·çš„çŸ©é˜µ1 2 3 
                              //4 5 6
                              //7 8 9
     /*vector<vector<int>> arr;
@@ -24,7 +24,7 @@ int main()
         }
     }*/
 
-    //ÊäÈëÊı×éÖĞ´øÓĞÖĞÀ¨ºÅºÍ¶ººÅ
+    //è¾“å…¥æ•°ç»„ä¸­å¸¦æœ‰ä¸­æ‹¬å·å’Œé€—å·
     /*vector<vector<int>> arr;
     string input;
     char *tok;
@@ -43,7 +43,7 @@ int main()
         }
     }*/
 
-    //¶ÁÈ¡Á¬Ğø×Ö·û´®
+    //è¯»å–è¿ç»­å­—ç¬¦ä¸²
     /*vector<vector<char>> arr;
     string input;
     while (getline(cin, input))
@@ -60,19 +60,19 @@ int main()
     }*/
     double number = 3.14159265359;
 
-    // Ê¹ÓÃ std::setprecision À´ÉèÖÃÊä³ö¾«¶ÈÎª2Î»Ğ¡Êı
+    // ä½¿ç”¨ std::setprecision æ¥è®¾ç½®è¾“å‡ºç²¾åº¦ä¸º2ä½å°æ•°
    cout <<setprecision(2) << number << endl;
    float num1 = 3.14159265359;
    double num2 = 3.14159265359;
 
-   // Ê¹ÓÃ%.2fÀ´ÏŞÖÆ¸¡µãÊıµÄ¾«¶ÈÎª2Î»Ğ¡Êı
-   printf("¸¡µãÊı1: %.3f\n", num1);
-   printf("¸¡µãÊı2: %.2f\n", num2);
+   // ä½¿ç”¨%.2fæ¥é™åˆ¶æµ®ç‚¹æ•°çš„ç²¾åº¦ä¸º2ä½å°æ•°
+   printf("æµ®ç‚¹æ•°1: %.3f\n", num1);
+   printf("æµ®ç‚¹æ•°2: %.2f\n", num2);
 
    int num = 1225225;
 
-   // Ê¹ÓÃ%dºÍ%5dÀ´ÏŞÖÆÕûÊıµÄ¿í¶ÈÎª5Î»
-   printf("ÕûÊı: %5d\n", num);
+   // ä½¿ç”¨%då’Œ%5dæ¥é™åˆ¶æ•´æ•°çš„å®½åº¦ä¸º5ä½
+   printf("æ•´æ•°: %5d\n", num);
 
 
     return 0;
